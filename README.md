@@ -106,3 +106,16 @@
     ```sh
     npm run dev
     ```
+## 📌 NOTE
+Make sure to configure Gmail SMTP in your .env file for the Password Reset feature to work properly.
+```env
+MAIL_MAILER=smtp  
+MAIL_HOST=smtp.gmail.com  
+MAIL_PORT=587  
+MAIL_USERNAME=your_gmail@gmail.com  
+MAIL_PASSWORD=your_app_password  
+MAIL_ENCRYPTION=tls  
+MAIL_FROM_ADDRESS=your_gmail@gmail.com  
+MAIL_FROM_NAME="${APP_NAME}"  
+```
+💡 don't forget to enable 2-step verification and create an App Password on your Google Account settings!
