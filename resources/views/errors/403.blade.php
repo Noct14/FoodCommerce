@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>503 Service Unavailable</title>
+    <title>403 Forbidden</title>
     <style>
       * {
         margin: 0;
@@ -59,26 +59,14 @@
       a:hover {
         background-color: #555;
       }
-
-      .wrapper {
-        max-width: 500px;
-      }
-
-      .wrapper img {
-        width: 100%;
-        max-width: 200px;
-        margin-bottom: 30px;
-        border-radius: 8px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      }
     </style>
   </head>
   <body>
     <div class="wrapper">
-    <img src="https://i.pinimg.com/736x/d4/56/93/d4569347bae9393d2557327b48efabcf.jpg" alt="Server Down" />
-      <h2>Service Unavailable</h2>
-      <p>Server-nya lagi mewing. Coba lagi nanti ya 😵‍💫</p>
-      {{-- <a href="/">Kembali ke Home</a> --}}
+      <h1>403</h1>
+      <h2>Akses Ditolak</h2>
+      <p>Waduh... kamu gak punya izin buat masuk ke sini 😵‍💫</p>
+      <a href="/">Balik ke Home</a>
     </div>
   </body>
 </html>
